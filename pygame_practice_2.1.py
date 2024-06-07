@@ -33,7 +33,6 @@ while run:
 
     if pressed_keys[pygame.K_DOWN] and y < 500 - height - displacement:
         y += displacement
-    
 
     window.fill((0, 0, 0))
     pygame.draw.rect(window, (255, 0, 0), (x, y, width, height))
